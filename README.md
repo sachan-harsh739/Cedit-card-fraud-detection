@@ -1,4 +1,72 @@
-# Ultimate Production-Ready Credit Card Fraud Detection System
+# 💳 Credit Card Fraud Detection System
+
+## 🚀 Overview
+This project is an enterprise-grade machine learning system designed to detect fraudulent credit card transactions using advanced techniques like SMOTETomek, PR-AUC optimization, and real-time API deployment.
+
+---
+
+## 🎯 Features
+- Zero Data Leakage Pipeline
+- Imbalanced Data Handling (SMOTETomek)
+- High Performance Model (Random Forest / XGBoost)
+- FastAPI Backend for real-time predictions
+- Streamlit Dashboard for UI
+- SHAP Explainability
+- Docker Deployment
+
+---
+
+## 🛠️ Tech Stack
+- Python
+- Scikit-learn, XGBoost
+- FastAPI
+- Streamlit
+- SHAP
+- Docker
+
+---
+
+## 📊 Model Performance
+- PR-AUC: 0.79
+- ROC-AUC: 0.94
+- Recall: 0.75+
+
+---
+
+## 📂 Project Structure
+src/
+models/
+app.py
+api_app.py
+Dockerfile
+
+---
+
+## ⚙️ How to Run
+
+### 1. Install dependencies
+pip install -r requirements.txt
+
+### 2. Train model
+python src/train_models.py
+
+### 3. Run API
+uvicorn api_app:app --port 8000
+
+### 4. Run UI
+streamlit run app.py
+
+---
+
+## Dataset
+Dataset not included due to size limitations.  
+Download from Kaggle:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+---
+
+##  Author
+Harsh Sachan# Ultimate Production-Ready Credit Card Fraud Detection System
 
 This project is an end-to-end Machine Learning solution designed to detect fraudulent credit card transactions accurately, featuring hyperparameter tuning, batch scoring, explainable AI (SHAP), scalable REST API, and Docker containerization.
 
